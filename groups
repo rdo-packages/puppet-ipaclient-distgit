@@ -1,3 +1,5 @@
-# UUID                                  	Group Name
-#
-fdcc790c72a4aebaf9418617df7cbad7c0654902	puppet/puppet-ipaclient-distgit-ptl
+# UUID          Group Name
+False 	Non-Interactive Users
+12e324f0912c9a26e2cdde89d2534ffc140bed78       	puppet/puppet-ipaclient-distgit-core
+fdcc790c72a4aebaf9418617df7cbad7c0654902        	puppet/puppet-ipaclient-distgit-ptl
+global:Registered-Users		Registered Users

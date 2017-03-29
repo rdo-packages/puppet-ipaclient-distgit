@@ -1,5 +1,10 @@
-# UUID                                  	Group Name
-#
-12e324f0912c9a26e2cdde89d2534ffc140bed78	puppet/puppet-ipaclient-distgit-core
-fdcc790c72a4aebaf9418617df7cbad7c0654902	puppet/puppet-ipaclient-distgit-ptl
-global:Registered-Users                 	Registered Users
+# UUID Group Name
+global:Registered-Users	Registered Users
+fc7c2ee6bf2a7ad3540c5b812b4c144209607ca1	rdo-opm-core
+4572c517702492251ad622a289176552a8acbbb2	rdo-superusers
+187bd2846e4a9a8f93b54013796d25c463b5d3eb	puppet/puppet-ipaclient-ptl
+global:Anonymous-Users	Anonymous Users
+05a678d3d4a168e149d5e8a0063bbd1b1c5526da	Administrators
+401cf37bee35d1c809d4d957e55f2a304f8eed69	rdo-provenpackagers
+6ddfecad023c6f4fa3ac8c4d2583c502ea675a73	Non-Interactive Users
+00f7ff4e326a09b7222ae22647f880d564ed7637	puppet/puppet-ipaclient-core

@@ -1,14 +1,14 @@
 %{!?upstream_version: %global upstream_version %{commit}}
 %define upstream_name puppet-ipaclient
-%global commit 052dd074420b6a2a494e86b2c03020be57940205
+%global commit b086731d5f1c0129db3cd8e3ebdc1acd649ebfce
 %global shortcommit %(c=%{commit}; echo ${c:0:7})
 # DO NOT REMOVE ALPHATAG
 %global alphatag .%{shortcommit}git
 
 
 Name:           puppet-ipaclient
-Version:        XXX
-Release:        XXX
+Version:        2.5.2
+Release:        1%{?dist}
 Summary:        IPA Client Puppet Module
 License:        MIT
 
@@ -48,5 +48,8 @@ cp -rp * %{buildroot}/%{_datadir}/openstack-puppet/modules/ipaclient/
 
 
 %changelog
+* Thu Feb 15 2018 RDO <dev@lists.rdoproject.org> 2.5.2-1
+- Update to 2.5.2
+
 
 
